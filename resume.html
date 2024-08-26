@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Professional Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">Your Name</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+        <h1>Your Name</h1>
+        <h2>Professional Software Engineer</h2>
+        <button onclick="window.location.href='mailto:your@email.com'">Contact Me</button>
+    </section>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main id="content">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skill-group">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Frameworks and Libraries</h3>
+                <ul>
+                    <li>Django</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <article>
+                <h3>Senior Software Engineer at XYZ Corporation</h3>
+                <p>January 2020 - Present</p>
+                <ul>
+                    <li>Lead a team of software engineers in developing scalable web applications</li>
+                    <li>Architected and implemented a microservices architecture for our company's new product line</li>
+                    <li>Improved code quality and reduced bugs by implementing automated testing frameworks</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>University of California, Los Angeles</p>
+                <p>Graduated: May 2018</p>
+            </article>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Personal Projects</h2>
+            <article>
+                <h3>Machine Learning Chatbot</h3>
+                <p>A chatbot developed using Python and machine learning algorithms to assist customers with common inquiries.</p>
+                <a href="#" target="_blank">View Project</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your@email.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
